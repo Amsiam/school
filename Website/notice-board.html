@@ -1,0 +1,718 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang='de'>
+<head><title>
+	নাজিমখান উচ্চ বিদ্যালয়
+</title>
+<meta charset="UTF-8"><link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" /><link href="css/StyleSheet.css" rel="stylesheet" type="text/css" /><link href="css/MenuStyle.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansbengali.css" />
+    <script type="text/javascript">
+        function pageLoad() {
+            var slide = $find('SSBehaviorID');
+            slide.add_slideChanging(animateSlides);
+            var ae = $find("ae");
+            var be = ae.get_OnLoadBehavior();
+            var an = be.get_animation();
+            fadein = an.get_animations()[1];
+            fadeout = an.get_animations()[0];
+
+            fadein.set_duration(1.0);
+            fadeout.set_duration(1.0);
+        }
+        function animateSlides() {
+            fadein.play();
+            window.setTimeout("fadeout.play()", 6000);
+        }
+    </script>
+    <!------------------------ For Image Zoom ------------------------>
+    <script type="text/javascript" src="photoGalleryJavaScripts/jquery.js"></script>
+    <script type="text/javascript" src="photoGalleryJavaScripts/jquery.shadow.js"></script>
+    <script type="text/javascript" src="photoGalleryJavaScripts/jquery.ifixpng.js"></script>
+    <script type="text/javascript" src="photoGalleryJavaScripts/jquery.fancyzoom.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#demo > a:first').fancyzoom({ Speed: 400, showoverlay: false });
+            $('#demo > a:last').fancyzoom({ Speed: 400, showoverlay: false });
+            $('#nooverlay').fancyzoom({ Speed: 400, showoverlay: false });
+            $('img.fancyzoom').fancyzoom();
+        });
+    </script>
+    <!------------------------------ optional ------------------------>
+    
+    </head>
+<body>
+    <form method="post" action="./" id="form1" autocomplete="off"><input type="hidden" name="ptSignature" value="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" />
+
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=lVmdarGON2BnU8Wlt4dWvGXG3A0utQRIfQrjxIOYihmDuEYjsql5FSxAg-a01xa541bEWbmo3LiXDKPKUi8REV3YTJ2MvSHs947bHFpBqcU1&amp;t=637346988242505677" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=IPsWsjHI-Xl7d3M3jj9SKE3UCSgcSWn4qdbgEHe-hVkdtorNiOMhIGjhhjRcEwhSQqYEDnX20GLPO3TCjf7h1fNBKATqRkUmA5UX7NrXLyY-ryM4sHpkffqZrcwsysLp-DgIVvI7gL43kF5pmqrM4Q2&amp;t=3a1336b1" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=K_DUgkGg-zuF01TG5-sakXpuZ_Cs1NY6BdT-ekd_09PDI1BWPLOQ7g7FNkkiERLDkRcbfwJ9chLSd86pqGQ8ixrf0xAwoL1uPULcLGskDW8qE04eK3r-CeBeYajrjAbOLhrdxqiCANkFwSfpa2tliQ2&amp;t=3a1336b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=qvnKTK1GxOFf6vPEWBb54YgzEEppE8XZEttPKPcF06vTsMhwpzKQLolvDKowbsOfcbUNYpjufxMbQgOWzRgg5j-k0S08zfA5MK1Kp0b90_vwEDaGp3F0b8PDOUDjRGXG3Ik6-4oMAnVhdHkUlNOtJA2&amp;t=3a1336b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=utomejlnpL1GHCRvz_eqEe5TAOtdFgJ6rnqa9Z67z2n3J6QgZ2rWUYws6l3h3JCjajR0ykXbAlkVftIutYG1n3j34VBRUhPllkL0ej8MfgZ6hWULEFYVg0A7CVZ8aAXDCsE2b6HbCbVTsU0ELB1nzw2&amp;t=3a1336b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=c9nJEkdHcucAP6ru84trSB1sNrx-vjedQCNZUivQl3Vp7Lchr14Yclc0ZE48V_weTHhJSY8MsaXnefFfgw_4a0EJm50ATXwmgLWc8Y2DEsz1gW5qdQAmxZLE-AzRLrPFKVPw8YFOo8r8av_fBFpwsA2&amp;t=3a1336b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=HBAacBFBm-Q0QfOVxFgna-LZLb4f-f2EGJOaYy3s_QT6c8-dpMSTFQtCIvcb8LwTA6u5pqqGgrrWYEyVLESw903zNHNAUagt1UwYg27U0OEnB_50XmsIlq6lJmsLmqUgPal3uys_XrL1MQTfDVU_V9VhU20abW4lBMujQNB8S3Q1&amp;t=3a1336b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=GdUlmSDUxFipymi-v7dGOcrDie_VlkpGbyrK6PohmterOoVNwnXPzQ1m8x7wGQyQk0jjKaXsNcNWfrC1NDuPl0As0Mr9bxnMpw8CgNa8JwalEZbemhHDe0EIhWmL5B0fPAMUhl60DPbu_kJxMcTxSg2&amp;t=3a1336b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kG7EbLLjPF4PGahCvJQYm241BkDrkx5oKgftLuqyeVfU-qfftvx-XK6BjP6NujpVOBHooUIYwC1tTD7y8sc0TNAHg1XYQqNU4xOzKq5-tSz3sgorpAiOFzXlV4io6xmFDgYIi3-2708bVC4m8L3ExzohpCJR2TKhYXqZ9JOvJaI1&amp;t=3a1336b1" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', ['tctl00$UpdatePanel1','UpdatePanel1','tctl00$UpdatePanel2','UpdatePanel2'], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+    <div id="UpdatePanel1">
+	
+            <div id="bodywrap">
+                
+                <div id="header">
+                    <img id="imgBanner" src="" style="height:220px;width:960px;border: 1px outset #EBEBEB;
+                        border-top: none;" />
+                    
+                    
+                    <div style="text-align: left; top: 35px; left: 50px; position: absolute;">
+                        <img id="imgMonogram" src="http://automation.sib.gov.bd/monogram/122246.png" align="absmiddle" style="height: 95px;" />
+                    </div>
+                    <div style="text-align: left; top: 135px; left: 50px; position: absolute;">
+                        <table>
+                            <tr>
+                                <td>
+                                    <span id="lblInstName" class="institutionName">কুড়িগ্রাম সরকারি উচ্চ বিদ্যালয়</span><br />
+                                    <span id="lblUpazila" class="institutionName" style="font-size:13pt;">কুড়িগ্রাম সদর, কুড়িগ্রাম</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div style="height: 10px;">
+                </div>
+                <ul id="navmenu">
+                    <li><a href="index.html" style="width: 90px; text-align: center;">প্রথম পাতা</a></li>
+                    <li><a href="#" style="width: 90px; text-align: center">পরিচিতি</a>
+                        <ul>
+                            <li><a href="at_a_glance.html" style="width: 150px;">এক নজরে পরিচিতি</a></li>
+                            <li><a href="history.html" style="width: 150px;">সংক্ষিপ্ত ইতিহাস</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" style="width: 90px; text-align: center">জনবল</a>
+                        <ul>
+                            <li><a href="officers_teachers.html" id="mnuTeachers" style="width: 150px;">শিক্ষক-শিক্ষিকা</a>  </li>
+                            <li><a href="staffs.html" style="width: 150px;">কর্মচারী</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" style="width: 90px; text-align: center">শিক্ষার্থী</a>
+                        <ul>
+                            <li><a href="student_at_a_glance.html" style="width: 200px;">অধ্যয়নরত শিক্ষার্থীর
+                                সংখ্যা</a></li>
+                            <li><a href="student_list.html" style="width: 200px;">অধ্যয়নরত শিক্ষার্থীর
+                                তালিকা</a></li>
+                            <li><a href="studentdailyattendance.html" style="width: 180px;">ডিজিটাল
+                                হাজিরার তথ্য</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="#" style="width: 130px; text-align: center">পরীক্ষার ফলাফল</a>
+                        <ul>
+                            <li><a href="https://eboardresults.com/v2/home" style="width: 200px;">পাবলিক পরীক্ষা</a></li>
+                            <li><a href="http://result.sib.gov.bd/" target="_blank" style="width: 200px;">
+                                বিদ্যালয়ের অভ্যন্তরীণ পরীক্ষা</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="photo-gallery.html" style="width: 110px; text-align: center">
+                        ছবির গ্যালারী</a></li>
+                    <li><a href="contact_us.html" style="width: 100px; text-align: center">যোগাযোগ</a></li>
+                </ul>
+                <div id="maincont">
+                    <div id="middlepanel">
+                        <div id="UpdatePanel2">
+		
+                                
+    <div id="ContentPlaceHolder1_UpdatePanel1">
+			
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td colspan="2" style="text-align: left; padding-left: 10px; font-size: 12pt;">
+                        সকল নোটিশ
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="padding-left: 10px;">
+                        <div>
+				<table cellspacing="0" cellpadding="2" id="ContentPlaceHolder1_GridView1" style="font-family:Noto Sans Bengali;font-weight:normal;border-collapse:collapse;margin: 0 auto;">
+					<tr class="gridViewHeaderStyle">
+						<th align="center" scope="col">ক্রমিক</th><th align="left" valign="middle" scope="col">বিষয়</th><th align="center" valign="middle" scope="col">তারিখ</th><th scope="col">&nbsp;</th>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        1
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_0" style="padding: 5px;">২০২১ খ্রিঃ শিক্ষাবর্ষে ভর্তি বিজ্ঞপ্তি ।</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">15.12.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1802">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        2
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_1" style="padding: 5px;">4th Assainment, Kurigram Govt. High School, Kurigram (Last Date 29-11-2020)</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">20.11.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1628">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        3
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_2" style="padding: 5px;">নো মাস্ক,নো সার্ভিস অনলাইন ক্লাস রুটিন ৩য় সপ্তাহ ২০২০ খ্রিঃ </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">12.11.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1569">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        4
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_3" style="padding: 5px;">নো মাস্ক, নো সার্ভিস ২য় সপ্তাহের এ্যাসাইনমেন্ট ( জমা দেয়ার তারিখ ১৫/১১/২০২০ খ্রিঃ)</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">07.11.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1530">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        5
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_4" style="padding: 5px;">নো মাস্ক,নো সার্ভিস</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">05.11.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1514">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        6
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_5" style="padding: 5px;">অনলাইন ক্লাস রুটিন ২য় সপ্তাহ ২০২০ খ্রিঃ </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">05.11.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1509">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        7
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_6" style="padding: 5px;">প্রথম নির্ধারিত কাজ ৮ম ও ৯ম শ্রেণি </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">03.11.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1497">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        8
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_7" style="padding: 5px;">প্রথম নির্ধারিত কাজ ৮ম ও ৯ম শ্রেণি </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">03.11.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1496">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        9
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_8" style="padding: 5px;">প্রথম নির্ধারিত কাজ ৮ম ও ৯ম শ্রেণি </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">03.11.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1495">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        10
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_9" style="padding: 5px;">প্রথম নির্ধারিত কাজ ৮ম ও ৯ম শ্রেণি </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">03.11.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1494">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        11
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_10" style="padding: 5px;">প্রথম নির্ধারিত কাজ ৮ম ও ৯ম শ্রেণি </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">03.11.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1493">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        12
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_11" style="padding: 5px;">প্রথম নির্ধারিত কাজ ৬ষ্ঠ ও ৭ম শ্রেণি </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">03.11.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1492">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        13
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_12" style="padding: 5px;">প্রথম নির্ধারিত কাজ ৬ষ্ঠ ও ৭ম শ্রেণি </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">03.11.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1491">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        14
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_13" style="padding: 5px;">প্রথম নির্ধারিত কাজ ৬ষ্ঠ ও ৭ম শ্রেণি </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">03.11.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1490">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        15
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_14" style="padding: 5px;">প্রথম নির্ধারিত কাজ ৬ষ্ঠ ও ৭ম শ্রেণি </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">03.11.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1489">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        16
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_15" style="padding: 5px;">ক্লাস রুটিন ০২/১১/২০২০ খ্রিঃ থেকে ০৫/১১/২০২০ খ্রিঃ </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">01.11.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1407">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        17
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_16" style="padding: 5px;">অনলাইন ক্লাস রুটিন 01 -11-2020 খ্রিঃ </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">31.10.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1400">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        18
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_17" style="padding: 5px;">অনলাইন ক্লাস রুটিন 01 -11-2020 খ্রিঃ </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">31.10.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1399">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        19
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_18" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের ৩১ অক্টোবর থেকে ০৫ নভেম্বর পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">31.10.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1397">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        20
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_19" style="padding: 5px;">অনলাইন ক্লাস রুটিন 31 -10-2020 খ্রিঃ </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">30.10.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1391">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        21
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_20" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের ১৭ থেকে ২২ অক্টোবর পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">18.10.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1351">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        22
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_21" style="padding: 5px;">অন-লাইন ক্লাস রুটিন ১৭ -১০-২০২০ খ্রিঃ থেকে ২১-১০-২০২০ খ্রিঃ।</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">15.10.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1341">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        23
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_22" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের ১০ থেকে ১৫ অক্টোবর পর্যন্ত ক্লাস রুটিন (সময় সংশোধনী)</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">10.10.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1328">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        24
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_23" style="padding: 5px;">অনলাইন ক্লাস রুটিন ১০ -১০-২০২০ খ্রিঃ থেকে ১৫-১০-২০২০ খ্রিঃ।</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">08.10.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1323">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        25
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_24" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের ০৩ থেকে ০৮ অক্টোবর পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">03.10.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1292">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        26
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_25" style="padding: 5px;">অনলাইন ক্লাস রুটিন ০৩-১০-২০২০ খ্রিঃ থেকে ০৮-১০-২০২০ খ্রিঃ।</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">01.10.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1284">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        27
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_26" style="padding: 5px;">"আমার ঘরে আমার স্কুল" কার্যক্রমের ২৭ সেপ্টেম্বর থেকে ০১ অক্টোবর পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">26.09.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1269">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        28
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_27" style="padding: 5px;">অনলাইন ক্লাস রুটিন ২৬-০৯-২০২০ খ্রিঃ থেকে ০১-১০-২০২০ খ্রিঃ।</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">24.09.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1262">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        29
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_28" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের ২০থেকে ২৪ সেপ্টেম্বর পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">19.09.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1249">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        30
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_29" style="padding: 5px;">অনলাইন ক্লাস রুটিন ১৯-০৯-২০২০ খ্রিঃ থেকে ২৪-০৯-২০২০ খ্রিঃ।</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">17.09.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1246">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        31
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_30" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের ১৩ থেকে ১৭ সেপ্টেম্বর পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">15.09.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1233">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        32
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_31" style="padding: 5px;">অনলাইন ক্লাস রুটিন ১২-০৯-২০২০  থেকে ১৭-০৯-২০২০</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">10.09.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1215">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        33
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_32" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের ০৬ সেপ্টেম্বর থেকে ১০ সেপ্টেম্বর পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">09.09.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1210">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        34
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_33" style="padding: 5px;">ষষ্ঠ থেকে দশম শ্রেণি পর্যন্ত অনলাইন ক্লাস রুটিন ২০২০</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">03.09.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1190">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        35
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_34" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের ৩১ আগস্ট থেকে ৩ সেপ্টেম্বর পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">29.08.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1171">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        36
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_35" style="padding: 5px;">ষষ্ঠ থেকে দশম শ্রেণি পর্যন্ত অনলাইন ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">26.08.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1162">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        37
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_36" style="padding: 5px;">পি.ডি.এস যাচাই</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">25.08.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1160">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        38
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_37" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের ২৩থেকে ২৭ আগস্ট পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">22.08.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1154">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        39
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_38" style="padding: 5px;">৬ষ্ঠ থেকে ১০ম শ্রেণি পর্যন্ত অনলাইন ক্লাস রুটিন ২০২০ খ্রিঃ</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">19.08.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1149">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        40
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_39" style="padding: 5px;">আমার ঘরে আমার স্কুল’ কার্যক্রমের ১৬ থেকে ২০ আগস্ট পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">15.08.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1140">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        41
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_40" style="padding: 5px;">15 আগষ্ট জাতীয় শোক দিবস উপলক্ষে বঙ্গবন্ধু শেখ মুজিবুর রহমানের জীবনী ও কর্ম বিষয়ে কুইজ প্রতিযোগিতা অন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">12.08.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1126">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        42
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_41" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের ০৯ থেকে ১৩ আগস্ট পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">09.08.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1104">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        43
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_42" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের ২৬-৩০ জুলাই পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">26.07.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1074">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        44
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_43" style="padding: 5px;">"আমার ঘরে আমার স্কুল" কার্যক্রমের ১৯ - ২৩ জুলাই পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">19.07.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=1062">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        45
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_44" style="padding: 5px;">"আমার ঘরে আমার স্কুল" কার্যক্রমের ১২ - ১৬ জুলাই পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">11.07.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=992">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        46
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_45" style="padding: 5px;">"আমার ঘরে আমার স্কুল" কার্যক্রমের ৫ - ৯ জুলাই পর্যন্ত ক্লাস রুটিন (সংশোধিত)</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">05.07.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=947">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        47
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_46" style="padding: 5px;">আমার ঘরে আমার স্কুল কার্যক্রমের ১ - ২ জুলাই পর্যন্ত ক্লাস রুটিন (সংশোধিত)</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">02.07.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=938">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        48
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_47" style="padding: 5px;">সকল শ্রেণির ক্লাশ দেখার জন্য নিম্নবর্ণিত লিংক এ প্রবেশ করতে হবে ..</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">29.06.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=917">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        49
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_48" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের ২৮-৩০ জুন পর্যন্ত ক্লাস রুটিন (সংশোধিত)</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">29.06.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=916">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        50
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_49" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের ৭-১১ জুন পর্যন্ত ক্লাস রুটিন (সংশোধিত)</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">06.06.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=904">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        51
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_50" style="padding: 5px;">"আমার ঘরে আমার স্কুল" এর ১০-১৪ মে-২০২০ পর্যন্ত ক্লাস রুটিন (সংশোধিত)</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">10.05.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=871">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        52
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_51" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের 3-7 মে পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">03.05.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=869">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        53
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_52" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের ১৯-২৩ এপ্রিল পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">28.04.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=865">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        54
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_53" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের ২৬-৩০ এপ্রিল পর্যন্ত ক্লাস রুটিন</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">28.04.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=864">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        55
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_54" style="padding: 5px;">'আমার ঘরে আমার স্কুল’ কার্যক্রমের ১২-১৬ এপ্রিল পর্যন্ত ক্লাস রুটিন </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">12.04.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=846">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        56
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_55" style="padding: 5px;">সংসদ বাংলাদেশ টেলিভিশন ছাত্রদের ক্লাশ রুটিন : </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">01.04.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=836">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        57
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_56" style="padding: 5px;">ফেব্রুয়ারি ২০২০ মাসের বেতন আদায় এর বিজ্ঞপ্তি ঃ </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">17.02.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=792">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        58
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_57" style="padding: 5px;">জরুরী বিজ্ঞপ্তি ২০২০ খ্রিঃ </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">01.02.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=778">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        59
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_58" style="padding: 5px;">জরুরী বিজ্ঞপ্তি ২০২০ খ্রিঃ </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">28.01.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=776">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        60
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_59" style="padding: 5px;">নবম শ্রেণির ভর্তি বিজ্ঞপ্তি ২০২০</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">05.01.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=749">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        61
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_60" style="padding: 5px;">বেতন আদায় বিজ্ঞপ্তি ২০২০</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">04.01.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=743">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        62
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_61" style="padding: 5px;">নবম শ্রেণির ভর্তি পরীক্ষার ফলাফল ২০২০ শিক্ষাবর্ষ দিবা শাখা </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">02.01.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=740">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        63
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_62" style="padding: 5px;">নবম শ্রেণির ভর্তি পরীক্ষার ফলাফল ২০২০ শিক্ষাবর্ষ প্রভাতী শাখা </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">02.01.2020</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=739">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        64
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_63" style="padding: 5px;"> ভর্তি নোটিশ ২০২০ খ্রিঃ </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">24.12.2019</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=706">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        65
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_64" style="padding: 5px;">ষষ্ঠ শ্রেণির ভর্তি পরীক্ষার ফলাফল ২০২০ শিক্ষাবর্ষ অপেক্ষমান তালিকা দিবা শাখা</span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">22.12.2019</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=687">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        66
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_65" style="padding: 5px;">ষষ্ঠ শ্রেণির ভর্তি পরীক্ষার ফলাফল ২০২০ শিক্ষাবর্ষ অপেক্ষমান তালিকা প্রভাতী শাখা </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">22.12.2019</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=686">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        67
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_66" style="padding: 5px;">ষষ্ঠ শ্রেণির ভর্তি পরীক্ষার ফলাফল ২০২০ শিক্ষাবর্ষ </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">21.12.2019</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=640">বিস্তারিত</a></td>
+					</tr><tr style="background-color:White;">
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        68
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_67" style="padding: 5px;">ষষ্ঠ শ্রেণির ভর্তি পরীক্ষার ফলাফল ২০২০ শিক্ষাবর্ষ </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">21.12.2019</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=639">বিস্তারিত</a></td>
+					</tr><tr>
+						<td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:50px;">
+                                        69
+                                    </td><td align="left" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:450px;">
+                                        <span id="ContentPlaceHolder1_GridView1_lblSubjectTitle_68" style="padding: 5px;">৬ (ষষ্ঠ )  ও  ৯ (নবম) শ্রেণির ভর্তি বিজ্ঞপ্তি ২০২০ শিক্ষাবর্ষ </span>
+                                    </td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;font-size:10pt;width:100px;">01.12.2019</td><td align="center" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:100px;"><a href="notice-details.aspx?nid=580">বিস্তারিত</a></td>
+					</tr>
+				</table>
+			</div>
+                        
+                    </td>
+                </tr>
+            </table>
+        
+		</div>
+
+                            
+	</div>
+                    </div>
+                    <div id="rightSidebar">
+                        <table cellpadding="0" cellspacing="0" style="margin: 0 auto;">
+                            <tr>
+                                <td class="boxHeader" width="220px">
+                                    <span id="lblInstDesig">প্রধান শিক্ষক</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center; padding-top: 7px;">
+                                    <img id="ImgInstHead" class="fancyzoom" src="images/teacher.jpg" style="height:200px;width:175px;" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center; padding-bottom: 10px;">
+                                    <span id="lblInstHead">শিক্ষকের নাম</span>
+                                </td>
+                            </tr>
+                            
+                        </table>
+                        <table cellpadding="0" cellspacing="0" style="margin: 0 auto;">
+                            <tr>
+                                <td class="boxHeader" width="220px">
+                                    অভ্যন্তরীণ ই-সেবা
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; padding-left: 0px;">
+                                    <div id="box">
+                                        <ul>
+                                            <li><a href="http://eschool.sib.gov.bd" target="_blank" style="color: #FF0000;">ই-স্কুল</a></li>
+                                            <li><a href="http://automation.sib.gov.bd/" target="_blank">পাঠশালা</a></li>
+                                            <li><a href="http://pds.sib.gov.bd/" target="_blank">পিডিএস (সরকারি মাধ্যমিক)</a></li>
+                                            <li><a href="http://gsa.teletalk.com.bd" target="_blank" style="color: #FF0000;">ভর্তি
+                                                পরীক্ষার আবেদন</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" style="margin: 0 auto;">
+                            <tr>
+                                <td class="boxHeader" width="220px">
+                                    গুরুত্বপূর্ণ লিংক
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">
+                                    <div id="box">
+                                        <ul>
+                                            <li><a href="http://www.moedu.gov.bd/" target="_blank">শিক্ষা মন্ত্রণালয়</a></li>
+                                            <li><a href="http://www.dshe.gov.bd/" target="_blank">মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর</a></li>
+                                            <li><a href="http://www.banbeis.gov.bd/" target="_blank">ব্যানবেইজ</a></li>
+                                            <li><a href="http://www.naem.gov.bd/" target="_blank">নায়েম</a></li>
+                                            <li><a href="http://www.nctb.gov.bd/" target="_blank">এনসিটিবি</a></li>
+                                            <li><a href="http://www.teachers.gov.bd/" target="_blank">শিক্ষক বাতায়ন</a></li>
+                                            <li><a href="http://www.konnect.edu.bd/" target="_blank">কিশোর বাতায়ন</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" style="margin: 0 auto;">
+                            <tr>
+                                <td class="boxHeader" width="220px">
+                                    ওয়েব মাস্টার
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">
+                                    <div id="box">
+                                        <ul>
+                                            <li><a href="http://sib.gov.bd/webmaster/default.aspx" target="_blank">ওয়েব মাস্টার
+                                                লগইন</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id="footer">
+                    <table cellpadding="0" cellspacing="3" style="margin: 0 auto;" width="100%">
+                        <tr>
+                            <td style="padding-left: 15px; text-align: left; color: #06A3FF;">
+                                কারিগরি সহায়তায়:
+                                <br />
+                                কর্পোরেট সিস্টেম সলিউশনস লিমিটেড
+                                <br />
+                                <b style="font-family: Century Gothic; font-size: 7pt;">Email: anischp@gmail.com</b>
+                            </td>
+                            <td style="text-align: right; padding-right: 15px; color: #06A3FF;">
+                                Developed By
+                                <br />
+                                Md. Abid Hasan Roni
+                                <br />
+                                Depertment of CSE
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+</div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.SlideShowBehavior, {"autoPlay":true,"id":"SSBehaviorID","loop":true,"playInterval":6000,"slideShowServiceMethod":"GetImages","slideShowServicePath":"default.aspx"}, null, null, $get("imgBanner"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.Animation.AnimationBehavior, {"OnLoad":"{\"AnimationName\":\"Sequence\",\"AnimationChildren\":[{\"AnimationName\":\"FadeOut\",\"Duration\":\"0\",\"Fps\":\"0\",\"AnimationChildren\":[]},{\"AnimationName\":\"FadeIn\",\"Duration\":\"0\",\"Fps\":\"400\",\"AnimationChildren\":[]}]}","id":"ae"}, null, null, $get("imgBanner"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>
